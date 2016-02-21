@@ -1,0 +1,25 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "AspnetDiSample Console Application",
+	"authors": [ "User" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
+
+	"compilationOptions": {
+		"emitEntryPoint": true
+	},
+
+	"dependencies": {
+		"Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+		"Microsoft.Extensions.Logging": "1.0.0-rc1-final"
+	},
+
+	"commands": {
+		"AspnetDiSample": "AspnetDiSample"
+	},
+
+	"frameworks": {
+		"dnx451": { }
+	}
+}

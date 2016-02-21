@@ -1,0 +1,20 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "AspnetDiSample.Tests Class Library",
+	"authors": [ "User" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
+
+	"frameworks": {
+		"dnx451": { }
+	},
+
+	"dependencies": {
+		"TestAttributes": "2.0.0-rc1",
+		"FluentAssertions": "4.2.1",
+		"xunit.runner.dnx": "2.1.0-rc1-build204"
+	},
+
+	"commands": { "test": "xunit.runner.dnx" }
+}
